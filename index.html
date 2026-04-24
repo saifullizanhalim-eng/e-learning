@@ -59,7 +59,7 @@
                         <a href="#" onclick="showPage('page-home')" class="hover:text-unimapGold px-3 py-2 rounded-md text-sm font-medium transition-colors">Laman Utama</a>
                         <a href="#" onclick="showPage('page-concept')" class="hover:text-unimapGold px-3 py-2 rounded-md text-sm font-medium transition-colors">Modul Semasa</a>
                         <a href="#" onclick="showPage('page-assessment')" class="hover:text-unimapGold px-3 py-2 rounded-md text-sm font-medium transition-colors">Penilaian</a>
-                        <a href="#" onclick="showPage('page-conclusion')" class="bg-unimapGold text-unimapBlue hover:bg-yellow-400 px-4 py-2 rounded-md text-sm font-bold transition-colors">Maklum Balas</a>
+                        <a href="#" onclick="showPage('page-conclusion')" class="hover:text-unimapGold px-3 py-2 rounded-md text-sm font-medium transition-colors">Maklum Balas</a>
                     </div>
                 </div>
             </div>
@@ -218,6 +218,120 @@
                         </div>
                     </div>
 
+                    <!-- TAMBAHAN: Gamifikasi vs GBL -->
+                    <div class="mb-8 border-t border-gray-200 pt-8">
+                        <h4 class="text-center text-lg font-bold text-gray-800 mb-6">Miskonsepsi Popular: Gamifikasi vs GBL</h4>
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <div class="flex-1 bg-white border-2 border-unimapBlue rounded-xl p-5 shadow-sm">
+                                <div class="flex items-center gap-3 mb-3 border-b pb-2">
+                                    <i class="ph-fill ph-magic-wand text-2xl text-unimapBlue"></i>
+                                    <h5 class="font-bold text-unimapBlue">Gamifikasi (Gamification)</h5>
+                                </div>
+                                <p class="text-sm text-gray-600 mb-3">Menambah elemen permainan ke dalam persekitaran <strong>bukan permainan</strong> (seperti kelas biasa) untuk memotivasikan tindakan.</p>
+                                <div class="bg-gray-50 p-3 rounded text-xs text-gray-700 border-l-4 border-unimapBlue">
+                                    <strong>Contoh:</strong> Menggunakan sistem <em>ClassDojo</em> untuk memberi mata kepada pelajar yang menyiapkan tugasan matematik di buku latihan biasa.
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center justify-center md:px-2 py-2">
+                                <span class="bg-gray-200 text-gray-500 rounded-full w-8 h-8 flex items-center justify-center font-bold text-xs">VS</span>
+                            </div>
+
+                            <div class="flex-1 bg-white border-2 border-emerald-500 rounded-xl p-5 shadow-sm">
+                                <div class="flex items-center gap-3 mb-3 border-b pb-2">
+                                    <i class="ph-fill ph-game-controller text-2xl text-emerald-500"></i>
+                                    <h5 class="font-bold text-emerald-600">Pembelajaran Berasaskan Permainan (GBL)</h5>
+                                </div>
+                                <p class="text-sm text-gray-600 mb-3">Menggunakan sebuah <strong>permainan sebenar secara fizikal atau digital</strong> sebagai medium utama untuk mencapai hasil pembelajaran.</p>
+                                <div class="bg-gray-50 p-3 rounded text-xs text-gray-700 border-l-4 border-emerald-500">
+                                    <strong>Contoh:</strong> Bermain <em>Minecraft Education</em> secara langsung untuk membina dan memahami blok struktur bandar bersejarah.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAMBAHAN: 4 Profil Pelajar (Bartle Taxonomy) -->
+                    <div class="mb-8 border-t border-gray-200 pt-8">
+                        <h4 class="text-center text-lg font-bold text-gray-800 mb-2">Kenali 4 Profil Psikologi Pelajar Anda</h4>
+                        <p class="text-center text-sm text-gray-500 mb-6">Mengapa elemen gamifikasi yang berbeza menarik minat jenis pelajar yang berbeza? (Adaptasi dari teori <em>Bartle's Player Types</em>)</p>
+                        
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <!-- Pencapai -->
+                            <div class="bg-indigo-50 border border-indigo-100 p-4 rounded-xl text-center hover:bg-indigo-100 transition-colors">
+                                <i class="ph-fill ph-medal text-4xl text-indigo-500 mb-2"></i>
+                                <h5 class="font-bold text-indigo-900 text-sm mb-1">Pencapai (Achievers)</h5>
+                                <p class="text-xs text-indigo-700">Sangat bermotivasi untuk mengumpul mata, lencana, dan melepasi tahap sukar. Mereka fokus pada penguasaan tugasan.</p>
+                            </div>
+                            <!-- Peneroka -->
+                            <div class="bg-amber-50 border border-amber-100 p-4 rounded-xl text-center hover:bg-amber-100 transition-colors">
+                                <i class="ph-fill ph-binoculars text-4xl text-amber-500 mb-2"></i>
+                                <h5 class="font-bold text-amber-900 text-sm mb-1">Peneroka (Explorers)</h5>
+                                <p class="text-xs text-amber-700">Suka menemui maklumat baru, jalan penyelesaian alternatif, atau soalan bonus yang tidak dijumpai oleh rakan lain.</p>
+                            </div>
+                            <!-- Penyosial -->
+                            <div class="bg-teal-50 border border-teal-100 p-4 rounded-xl text-center hover:bg-teal-100 transition-colors">
+                                <i class="ph-fill ph-users-three text-4xl text-teal-500 mb-2"></i>
+                                <h5 class="font-bold text-teal-900 text-sm mb-1">Penyosial (Socializers)</h5>
+                                <p class="text-xs text-teal-700">Tertarik dengan cabaran kerja berkumpulan, kolaborasi pasukan, dan keupayaan untuk berbincang dengan rakan-rakan.</p>
+                            </div>
+                            <!-- Pesaing -->
+                            <div class="bg-rose-50 border border-rose-100 p-4 rounded-xl text-center hover:bg-rose-100 transition-colors">
+                                <i class="ph-fill ph-sword text-4xl text-rose-500 mb-2"></i>
+                                <h5 class="font-bold text-rose-900 text-sm mb-1">Pesaing (Competitors)</h5>
+                                <p class="text-xs text-rose-700">Bermotivasi untuk menang, berlawan kepintaran, dan berada di tempat pertama. Sangat teruja dengan Papan Pendahulu.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAMBAHAN: Cara Menghasilkan Gamifikasi yang Bagus -->
+                    <div class="mb-8 border-t border-gray-200 pt-8">
+                        <h4 class="text-center text-lg font-bold text-gray-800 mb-2">Panduan Pelaksanaan Gamifikasi Berstruktur</h4>
+                        <p class="text-center text-sm text-gray-600 mb-2 max-w-3xl mx-auto">Disintesis berdasarkan kajian meta-analisis terkini oleh <span class="font-bold text-gray-800">Li, Hew, & Du (2024)</span> dalam <em>Educational Technology Research and Development</em> serta kajian reka bentuk oleh <span class="font-bold text-gray-800">Adams & Du Preez (2022)</span> dalam <em>Technology, Knowledge and Learning</em>.</p>
+                        <p class="text-center text-xs text-unimapBlue font-bold mb-6 bg-blue-50 py-2 px-4 rounded-full inline-block mx-auto w-max border border-blue-200">Sokongan Empirikal: Kajian 5 Tahun Terkini (Evidence-Based)</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="flex items-start gap-4 p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-unimapBlue transition-all">
+                                <div class="w-10 h-10 rounded-full bg-unimapBlue text-white flex items-center justify-center font-bold shrink-0 shadow-sm">1</div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 text-sm mb-1">Bina Persepsi Autonomi Pelajar</h5>
+                                    <p class="text-xs text-gray-600">Dapatan meta-analisis Li et al. (2024) membuktikan gamifikasi amat berkesan meningkatkan rasa autonomi. Berikan pelajar pilihan dalam 'misi' atau avatar mereka agar mereka rasa berkuasa terhadap pembelajaran sendiri.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start gap-4 p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-unimapBlue transition-all">
+                                <div class="w-10 h-10 rounded-full bg-unimapBlue text-white flex items-center justify-center font-bold shrink-0 shadow-sm">2</div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 text-sm mb-1">Jajarkan dengan Objektif Pembelajaran</h5>
+                                    <p class="text-xs text-gray-600">Kajian Adams & Du Preez (2022) menekankan pentingnya Reka Bentuk Berasaskan Kajian (DBR). Mekanik permainan mesti disepadukan secara langsung dengan silibus, bukan sekadar tempelan hiburan semata-mata.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4 p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-unimapBlue transition-all">
+                                <div class="w-10 h-10 rounded-full bg-unimapBlue text-white flex items-center justify-center font-bold shrink-0 shadow-sm">3</div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 text-sm mb-1">Mula Ringkas, Impak Maksima</h5>
+                                    <p class="text-xs text-gray-600"><em>Biar Ringkas Asal Berkesan.</em> Elakkan lambakan elemen secara serentak. Fokus pada 1-2 elemen asas (seperti mata ganjaran & tahap) untuk mengelakkan beban kognitif berlebihan pada pelajar.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4 p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-unimapBlue transition-all">
+                                <div class="w-10 h-10 rounded-full bg-unimapBlue text-white flex items-center justify-center font-bold shrink-0 shadow-sm">4</div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 text-sm mb-1">Pupuk Keterikatan Sosial (Relatedness)</h5>
+                                    <p class="text-xs text-gray-600">Selain persaingan (papan pendahulu), terapkan misi berkumpulan. Li et al. (2024) mendapati elemen kolaborasi dan kerja berpasukan secara digital dapat melonjakkan motivasi intrinsik pelajar.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4 p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-unimapBlue transition-all md:col-span-2 md:w-2/3 mx-auto">
+                                <div class="w-10 h-10 rounded-full bg-unimapBlue text-white flex items-center justify-center font-bold shrink-0 shadow-sm">5</div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 text-sm mb-1">Maklum Balas Berterusan dan Interaktif</h5>
+                                    <p class="text-xs text-gray-600">Strukturkan sistem maklum balas yang segera supaya pelajar tahu sejauh mana perkembangan dan kefahaman mereka terhadap topik yang dipelajari untuk mengekalkan keghairahan mereka.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="border-t border-gray-200 pt-6">
                         <h4 class="text-center text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Impak Kepada Pelajar</h4>
                         <div class="flex flex-wrap justify-center gap-4 md:gap-8">
@@ -276,93 +390,102 @@
             <section id="page-activity" class="page-section fade-in bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
                 <div class="flex items-center justify-between mb-6">
                     <h2 class="text-2xl font-bold text-gray-900 flex items-center gap-2">
-                        <i class="ph ph-flask text-green-600"></i> Pembina RPH Bebas (Amali)
+                        <i class="ph ph-flask text-green-600"></i> Makmal RPH Interaktif
                     </h2>
-                    <span class="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">Kreatif</span>
+                    <span class="bg-blue-100 text-unimapBlue text-xs font-bold px-3 py-1 rounded-full shadow-sm flex items-center gap-1"><i class="ph-fill ph-pencil-simple"></i> Uji Kefahaman Anda</span>
                 </div>
                 
-                <p class="text-gray-600 mb-6"><strong>Objektif:</strong> Rancang satu aktiviti RPH mengikut subjek anda. Kemudian, pilih sekurang-kurangnya 3 elemen gamifikasi dan tuliskan bagaimana anda akan mengintegrasikannya.</p>
+                <p class="text-gray-600 mb-6">Untuk menguji kefahaman anda mengenai konsep yang dipelajari, bina satu RPH secara <em>custom-made</em>. Pilih 3 elemen gamifikasi dan terangkan bagaimana anda akan menggunakannya untuk mengubah aktiviti tradisional di kelas anda.</p>
 
-                <div class="space-y-8">
+                <div class="space-y-6">
+                    <!-- Langkah 1: Input Asas -->
                     <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
                         <h3 class="font-bold text-gray-800 border-b pb-2 mb-4 flex items-center gap-2">
-                            <i class="ph ph-file-text text-unimapBlue"></i> Langkah 1: Maklumat RPH Asas
+                            <i class="ph ph-file-text text-unimapBlue"></i> Langkah 1: Senario Pengajaran
                         </h3>
                         <div class="space-y-4">
                             <div>
                                 <label class="block text-sm font-bold text-gray-700 mb-1">Mata Pelajaran & Topik</label>
-                                <input type="text" id="rph-topic" class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-0 focus:border-unimapBlue outline-none transition-colors" placeholder="Cth: Sejarah Tahun 4 (Zaman Prasejarah)">
+                                <input type="text" id="rph-topic" class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-0 focus:border-unimapBlue outline-none transition-colors" placeholder="Cth: Sains Tahun 4 (Proses Fotosintesis)">
                             </div>
                             <div>
-                                <label class="block text-sm font-bold text-gray-700 mb-1">Aktiviti Tradisional (Sebelum Gamifikasi)</label>
-                                <textarea id="rph-original" rows="3" class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-0 focus:border-unimapBlue outline-none transition-colors" placeholder="Cth: Guru bercerita di hadapan kelas dan murid menyalin nota dari papan putih..."></textarea>
+                                <label class="block text-sm font-bold text-gray-700 mb-1">Aktiviti Tradisional Anda</label>
+                                <textarea id="rph-original" rows="3" class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-0 focus:border-unimapBlue outline-none transition-colors" placeholder="Cth: Murid mendengar penerangan guru dan menyalin nota proses fotosintesis ke dalam buku latihan..."></textarea>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Langkah 2: Pemilihan Elemen -->
                     <div class="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                        <div class="flex items-center justify-between border-b border-blue-300 pb-2 mb-4">
+                        <div class="flex items-center justify-between border-b border-blue-200 pb-2 mb-4">
                             <h3 class="font-bold text-gray-800 flex items-center gap-2">
-                                <i class="ph ph-backpack text-unimapBlue"></i> Langkah 2: Suntikan Gamifikasi
+                                <i class="ph ph-check-square-offset text-unimapBlue"></i> Langkah 2: Pilih 3 Elemen Gamifikasi
                             </h3>
-                            <span class="text-sm font-bold text-gray-700 bg-white px-3 py-1 rounded-full shadow-sm">Pilih: <span id="selected-count" class="text-unimapBlue">0</span> / 3 (Minima)</span>
+                            <span class="text-sm font-bold text-gray-700 bg-white px-3 py-1 rounded-full shadow-sm border border-blue-100">Dipilih: <span id="selected-count" class="text-unimapBlue">0</span> / 3</span>
                         </div>
-                        <p class="text-xs text-gray-600 mb-4">Klik elemen yang ingin dimasukkan ke dalam RPH anda:</p>
+                        <p class="text-xs text-gray-600 mb-4">Pilih tepat 3 elemen yang ingin anda gunakan (klik untuk pilih/batal).</p>
                         
                         <div class="grid grid-cols-2 md:grid-cols-3 gap-3" id="gamification-inventory">
-                            <button onclick="toggleElement('Mata Ganjaran', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapGold hover:shadow-sm transition-all flex items-center gap-2">
+                            <button onclick="toggleElement('Mata Ganjaran (Points)', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapBlue transition-all flex flex-col gap-2">
                                 <div class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center text-yellow-600"><i class="ph-fill ph-coin text-xl"></i></div>
-                                <span class="text-sm font-semibold text-gray-700">Mata Ganjaran</span>
+                                <span class="text-sm font-semibold text-gray-800">Mata Ganjaran</span>
                             </button>
-                            <button onclick="toggleElement('Lencana Keahlian', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-purple-400 hover:shadow-sm transition-all flex items-center gap-2">
+                            <button onclick="toggleElement('Lencana (Badges)', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapBlue transition-all flex flex-col gap-2">
                                 <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600"><i class="ph-fill ph-medal text-xl"></i></div>
-                                <span class="text-sm font-semibold text-gray-700">Lencana Keahlian</span>
+                                <span class="text-sm font-semibold text-gray-800">Lencana Keahlian</span>
                             </button>
-                            <button onclick="toggleElement('Papan Pendahulu', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-blue-400 hover:shadow-sm transition-all flex items-center gap-2">
+                            <button onclick="toggleElement('Papan Pendahulu (Leaderboard)', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapBlue transition-all flex flex-col gap-2">
                                 <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600"><i class="ph-fill ph-chart-bar text-xl"></i></div>
-                                <span class="text-sm font-semibold text-gray-700">Papan Pendahulu</span>
+                                <span class="text-sm font-semibold text-gray-800">Papan Pendahulu</span>
                             </button>
-                            <button onclick="toggleElement('Misi Bermasa', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-red-400 hover:shadow-sm transition-all flex items-center gap-2">
+                            <button onclick="toggleElement('Misi Bermasa (Time-Attack)', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapBlue transition-all flex flex-col gap-2">
                                 <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600"><i class="ph-fill ph-timer text-xl"></i></div>
-                                <span class="text-sm font-semibold text-gray-700">Misi Bermasa</span>
+                                <span class="text-sm font-semibold text-gray-800">Misi Bermasa</span>
                             </button>
-                            <button onclick="toggleElement('Avatar Pelajar', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-green-400 hover:shadow-sm transition-all flex items-center gap-2">
+                            <button onclick="toggleElement('Avatar Pelajar', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapBlue transition-all flex flex-col gap-2">
                                 <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center text-green-600"><i class="ph-fill ph-user-focus text-xl"></i></div>
-                                <span class="text-sm font-semibold text-gray-700">Avatar Pelajar</span>
+                                <span class="text-sm font-semibold text-gray-800">Avatar Pelajar</span>
                             </button>
-                            <button onclick="toggleElement('Ganjaran Misteri', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-orange-400 hover:shadow-sm transition-all flex items-center gap-2">
-                                <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-600"><i class="ph-fill ph-gift text-xl"></i></div>
-                                <span class="text-sm font-semibold text-gray-700">Ganjaran Misteri</span>
-                            </button>
-                        </div>
-
-                        <div class="mt-6 border-t border-blue-200 pt-4">
-                            <label class="block text-sm font-bold text-gray-700 mb-2 flex items-center gap-2">
-                                <i class="ph ph-pen-nib"></i> Langkah 3: Perancangan Aplikasi Gamifikasi (Selepas Gamifikasi)
-                            </label>
-                            <textarea id="rph-new" rows="4" class="w-full border-2 border-blue-200 bg-white rounded-lg p-3 focus:ring-0 focus:border-unimapBlue outline-none transition-colors" placeholder="Huraikan langkah demi langkah bagaimana anda mengubah aktiviti asal menggunakan elemen yang telah anda pilih di atas. Cth: Murid akan dibahagikan kepada kumpulan (Avatar). Setiap jawapan betul akan diberikan 10 Mata Ganjaran. Kumpulan tertinggi dipaparkan di Papan Pendahulu..."></textarea>
-                        </div>
-                        
-                        <div id="rph-error" class="hidden mt-3 text-red-600 text-sm font-bold flex items-center gap-2">
-                            <i class="ph-fill ph-warning-circle"></i> Sila isi semua ruangan dan pilih sekurang-kurangnya 3 elemen gamifikasi.
-                        </div>
-
-                        <div class="mt-4 flex justify-end">
-                            <button id="btn-generate" onclick="generateCustomRPH()" class="bg-unimapBlue text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-800 transition-colors shadow-md flex items-center gap-2">
-                                <i class="ph ph-magic-wand"></i> Jana Kad RPH
+                            <button onclick="toggleElement('Boss Battle (Kuiz Akhir)', this)" class="game-element text-left bg-white border-2 border-gray-200 p-3 rounded-lg hover:border-unimapBlue transition-all flex flex-col gap-2">
+                                <div class="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-orange-600"><i class="ph-fill ph-sword text-xl"></i></div>
+                                <span class="text-sm font-semibold text-gray-800">Boss Battle</span>
                             </button>
                         </div>
                     </div>
+
+                    <!-- Langkah 3: Aplikasi Praktikal (Muncul bila 3 elemen dipilih) -->
+                    <div id="step3-container" class="hidden bg-indigo-50 p-6 rounded-xl border border-indigo-200 transition-all">
+                        <h3 class="font-bold text-gray-800 border-b border-indigo-200 pb-2 mb-4 flex items-center gap-2">
+                            <i class="ph ph-brain text-indigo-600"></i> Langkah 3: Aplikasi Praktikal
+                        </h3>
+                        <p class="text-sm text-indigo-800 mb-4">Terangkan dengan ringkas bagaimana anda akan mengaplikasikan elemen yang dipilih ke dalam RPH anda.</p>
+                        
+                        <div id="dynamic-application-fields" class="space-y-4">
+                            <!-- Fields will be generated here -->
+                        </div>
+
+                        <div class="mt-6 flex justify-end">
+                            <button onclick="generateCustomRPH()" class="bg-unimapBlue text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-800 transition-transform transform hover:-translate-y-1 shadow-md flex items-center gap-2">
+                                <i class="ph ph-printer text-xl"></i> Jana Kad RPH Saya
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div id="rph-error" class="hidden text-red-600 text-sm font-bold flex items-center justify-center gap-2 bg-red-50 p-3 rounded-lg border border-red-200">
+                        <i class="ph-fill ph-warning-circle text-lg"></i> <span id="error-msg">Sila isi semua ruangan.</span>
+                    </div>
+
                 </div>
 
+                <!-- Paparan Hasil -->
                 <div id="rph-result" class="hidden mt-8 p-1 bg-gradient-to-br from-unimapGold to-yellow-500 rounded-xl shadow-lg">
                     <div class="bg-white p-8 rounded-lg h-full">
                         <div class="flex justify-between items-start border-b-2 border-gray-200 pb-4 mb-6">
                             <div>
-                                <h3 class="text-2xl font-black text-gray-900 uppercase tracking-wide">Rancangan Pengajaran Harian</h3>
-                                <p class="text-unimapBlue font-bold mt-1">Versi Gamifikasi</p>
+                                <h3 class="text-2xl font-black text-gray-900 uppercase tracking-wide">Kad Perancangan RPH</h3>
+                                <p class="text-unimapBlue font-bold mt-1">Integrasi Gamifikasi (Kustom)</p>
                             </div>
-                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center border-2 border-green-500 text-green-600">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center border-2 border-green-500 text-green-600 shadow-sm">
                                 <i class="ph-fill ph-seal-check text-3xl"></i>
                             </div>
                         </div>
@@ -375,25 +498,28 @@
                             
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-gray-50 p-4 rounded-lg border border-gray-100">
                                 <div>
-                                    <span class="text-xs uppercase text-gray-500 font-bold tracking-wider">Aktiviti Tradisional</span>
+                                    <span class="text-xs uppercase text-gray-500 font-bold tracking-wider">Aktiviti Tradisional Asal</span>
                                     <p id="res-original" class="text-sm mt-1 text-gray-600 line-through decoration-red-400 decoration-2"></p>
                                 </div>
                                 <div>
                                     <span class="text-xs uppercase text-unimapBlue font-bold tracking-wider">Elemen Digunakan</span>
                                     <div id="res-elements" class="flex flex-wrap gap-2 mt-2">
+                                        <!-- Tags will appear here -->
                                     </div>
                                 </div>
                             </div>
 
                             <div>
-                                <span class="text-xs uppercase text-gray-500 font-bold tracking-wider">Aktiviti Gamifikasi Baharu</span>
-                                <p id="res-new" class="text-sm mt-2 leading-relaxed bg-blue-50 p-4 rounded-lg border border-blue-100"></p>
+                                <span class="text-xs uppercase text-gray-500 font-bold tracking-wider">Pelaksanaan Gamifikasi (Idea Kreatif Guru)</span>
+                                <div id="res-new" class="mt-2 bg-blue-50 p-5 rounded-lg border border-blue-200 text-gray-800">
+                                    <!-- Dynamic content will appear here -->
+                                </div>
                             </div>
                         </div>
 
                         <div class="mt-8 pt-4 border-t border-gray-200 flex justify-end gap-3">
-                            <button class="bg-gray-100 text-gray-700 hover:bg-gray-200 font-semibold py-2 px-4 rounded transition-colors text-sm flex items-center gap-2">
-                                <i class="ph ph-printer"></i> Cetak RPH
+                            <button onclick="window.print()" class="bg-gray-100 text-gray-800 hover:bg-gray-200 font-bold py-2 px-4 rounded transition-colors text-sm flex items-center gap-2 border border-gray-300">
+                                <i class="ph ph-printer"></i> Cetak Fail
                             </button>
                             <button onclick="document.getElementById('rph-result').classList.add('hidden')" class="bg-gray-900 text-white hover:bg-gray-800 font-semibold py-2 px-4 rounded transition-colors text-sm">
                                 Tutup Paparan
@@ -456,6 +582,60 @@
                                 <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
                                     <input type="radio" name="q2" value="correct" class="text-unimapBlue focus:ring-unimapBlue">
                                     <span>Membaca esei secara senyap di meja masing-masing</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="bg-gray-50 p-5 rounded-lg border border-gray-200">
+                            <p class="font-semibold text-gray-800 mb-3">3. Mengikut panduan pelaksanaan, apakah yang dimaksudkan dengan prinsip 'Mula Ringkas, Impak Maksima'?</p>
+                            <div class="space-y-2">
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q3" value="wrong" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Menggabungkan kesemua elemen permainan secara serentak.</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q3" value="correct" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Fokus kepada 1 atau 2 elemen asas sahaja bagi mengelakkan beban kognitif pelajar.</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q3" value="wrong" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Menghapuskan elemen bermain dan kembali kepada kaedah tradisional.</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="bg-gray-50 p-5 rounded-lg border border-gray-200">
+                            <p class="font-semibold text-gray-800 mb-3">4. Berdasarkan Taksonomi Bartle, profil pelajar jenis "Penyosial" (Socializers) paling bermotivasi jika kelas mempunyai...</p>
+                            <div class="space-y-2">
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q4" value="correct" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Peluang untuk berkolaborasi, berbincang dan melaksanakan kerja berkumpulan.</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q4" value="wrong" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Tahap kesukaran soalan yang sangat tinggi.</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q4" value="wrong" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Misi yang membolehkan mereka menang dan menewaskan orang lain semata-mata.</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="bg-gray-50 p-5 rounded-lg border border-gray-200">
+                            <p class="font-semibold text-gray-800 mb-3">5. Apakah peranan utama "Maklum Balas Segera" (Real-time Feedback) dalam persekitaran kelas bergamelikasi?</p>
+                            <div class="space-y-2">
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q5" value="wrong" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Menyusahkan guru untuk menilai tahap pelajar.</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q5" value="wrong" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Hanya digunakan untuk tujuan mendisiplinkan pelajar di dalam kelas.</span>
+                                </label>
+                                <label class="flex items-center gap-3 cursor-pointer p-2 hover:bg-gray-100 rounded">
+                                    <input type="radio" name="q5" value="correct" class="text-unimapBlue focus:ring-unimapBlue">
+                                    <span>Membolehkan pelajar mengetahui status perkembangan dan ralat mereka dengan segera agar terus bermotivasi.</span>
                                 </label>
                             </div>
                         </div>
@@ -548,6 +728,33 @@
                         <i class="ph-fill ph-google-logo text-2xl"></i> Isi Maklum Balas Sekarang
                     </a>
                 </div>
+
+                <!-- Kotak Komen Pantas Baru -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 flex items-center gap-2">
+                        <i class="ph ph-chat-circle-dots text-unimapBlue"></i> Ruangan Komen Pantas
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-6">Tinggalkan komen ringkas atau kongsi pandangan pantas anda mengenai laman web ini bersama pelawat lain.</p>
+                    
+                    <form id="quickCommentForm" class="space-y-4" onsubmit="submitFeedback(event)">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Nama</label>
+                            <input type="text" required class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-unimapBlue focus:border-unimapBlue outline-none" placeholder="Cth: Cikgu Ali">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Komen Anda</label>
+                            <textarea required rows="3" class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-unimapBlue focus:border-unimapBlue outline-none" placeholder="Laman web ini sangat menarik..."></textarea>
+                        </div>
+                        <button type="submit" class="bg-gray-900 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors text-sm shadow-md">
+                            Hantar Komen
+                        </button>
+                    </form>
+
+                    <!-- Tempat paparan komen -->
+                    <div class="mt-8 border-t border-gray-200 pt-6 space-y-4" id="discussionBoard">
+                        <!-- Komen akan dimuatkan oleh JavaScript di sini -->
+                    </div>
+                </div>
             </section>
 
         </main>
@@ -606,47 +813,122 @@
             }
         }
 
-        // --- Logik Makmal RPH (Pembina Bebas) ---
-        let selectedGamification = new Set();
+        // --- Logik Makmal RPH Interaktif (Custom) ---
+        let selectedGamification = [];
 
         function toggleElement(elementName, btnElement) {
-            if (selectedGamification.has(elementName)) {
-                selectedGamification.delete(elementName);
+            const errorDiv = document.getElementById('rph-error');
+            errorDiv.classList.add('hidden');
+
+            const index = selectedGamification.indexOf(elementName);
+            
+            if (index > -1) {
+                // Remove if already selected
+                selectedGamification.splice(index, 1);
                 btnElement.classList.remove('border-unimapBlue', 'bg-blue-50', 'ring-2', 'ring-blue-200');
             } else {
-                selectedGamification.add(elementName);
-                btnElement.classList.add('border-unimapBlue', 'bg-blue-50', 'ring-2', 'ring-blue-200');
+                // Add if less than 3
+                if (selectedGamification.length < 3) {
+                    selectedGamification.push(elementName);
+                    btnElement.classList.add('border-unimapBlue', 'bg-blue-50', 'ring-2', 'ring-blue-200');
+                } else {
+                    // Show error if trying to pick more than 3
+                    document.getElementById('error-msg').innerText = "Anda hanya boleh memilih maksimum 3 elemen.";
+                    errorDiv.classList.remove('hidden');
+                    return;
+                }
             }
 
-            document.getElementById('selected-count').innerText = selectedGamification.size;
-            document.getElementById('rph-error').classList.add('hidden');
+            // Update Count
+            document.getElementById('selected-count').innerText = selectedGamification.length;
+
+            // Handle Step 3 UI
+            const step3Container = document.getElementById('step3-container');
+            const dynamicFields = document.getElementById('dynamic-application-fields');
+            
+            if (selectedGamification.length === 3) {
+                step3Container.classList.remove('hidden');
+                dynamicFields.innerHTML = ''; // clear old
+                
+                selectedGamification.forEach((item, idx) => {
+                    dynamicFields.innerHTML += `
+                        <div class="bg-white p-4 rounded-lg border border-indigo-100 shadow-sm">
+                            <label class="block text-sm font-bold text-gray-800 mb-2 flex items-center gap-2">
+                                <span class="bg-indigo-600 text-white w-5 h-5 rounded-full flex items-center justify-center text-xs">${idx + 1}</span> 
+                                Bagaimana aplikasi <span class="text-indigo-600">${item}</span>?
+                            </label>
+                            <textarea id="app-input-${idx}" rows="2" class="w-full border border-gray-300 rounded p-3 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 outline-none text-sm" placeholder="Cth: Saya akan menggunakan ${item} untuk..."></textarea>
+                        </div>
+                    `;
+                });
+            } else {
+                step3Container.classList.add('hidden');
+            }
         }
 
         function generateCustomRPH() {
             const topic = document.getElementById('rph-topic').value.trim();
             const original = document.getElementById('rph-original').value.trim();
-            const newRph = document.getElementById('rph-new').value.trim();
             const errorDiv = document.getElementById('rph-error');
 
-            if (topic === '' || original === '' || newRph === '' || selectedGamification.size < 3) {
+            // Validasi Step 1
+            if (topic === '' || original === '') {
+                document.getElementById('error-msg').innerText = "Sila isi Mata Pelajaran dan Aktiviti Tradisional (Langkah 1).";
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+
+            // Validasi Step 3 (Pastikan cikgu tulis sesuatu)
+            let inputsValid = true;
+            let applications = [];
+            
+            for (let i = 0; i < 3; i++) {
+                const appInput = document.getElementById(`app-input-${i}`).value.trim();
+                if (appInput === '') {
+                    inputsValid = false;
+                    break;
+                }
+                applications.push(appInput);
+            }
+
+            if (!inputsValid) {
+                document.getElementById('error-msg').innerText = "Sila isi penerangan bagi kesemua 3 elemen di Langkah 3.";
                 errorDiv.classList.remove('hidden');
                 return;
             }
 
             errorDiv.classList.add('hidden');
 
+            // --- Paparkan Kad Hasil ---
             document.getElementById('res-topic').innerText = topic;
             document.getElementById('res-original').innerText = original;
-            document.getElementById('res-new').innerText = newRph;
             
             const elementsDiv = document.getElementById('res-elements');
             elementsDiv.innerHTML = '';
-            selectedGamification.forEach(item => {
+            
+            let finalHTML = `<ul class="space-y-4">`;
+            
+            selectedGamification.forEach((item, index) => {
+                // Tags
                 const tag = document.createElement('span');
-                tag.className = 'bg-blue-100 text-unimapBlue text-xs font-bold px-2 py-1 rounded-full border border-blue-200';
+                tag.className = 'bg-blue-100 text-unimapBlue text-xs font-bold px-2 py-1 rounded border border-blue-200';
                 tag.innerText = item;
                 elementsDiv.appendChild(tag);
+
+                // Application Text
+                finalHTML += `
+                    <li class="flex items-start gap-3">
+                        <i class="ph-fill ph-check-circle text-blue-600 mt-1 text-lg"></i>
+                        <div>
+                            <strong class="text-blue-900 block text-sm">${item}</strong>
+                            <span class="text-gray-700 text-sm leading-relaxed">${applications[index]}</span>
+                        </div>
+                    </li>
+                `;
             });
+            
+            finalHTML += `</ul>`;
+            document.getElementById('res-new').innerHTML = finalHTML;
 
             const resultPanel = document.getElementById('rph-result');
             resultPanel.classList.remove('hidden');
@@ -669,22 +951,38 @@
             const form = document.getElementById('quizForm');
             const q1 = form.elements['q1'].value;
             const q2 = form.elements['q2'].value;
+            const q3 = form.elements['q3'].value;
+            const q4 = form.elements['q4'].value;
+            const q5 = form.elements['q5'].value;
             const resultBox = document.getElementById('quizResult');
             
             let score = 0;
             if (q1 === 'correct') score++;
             if (q2 === 'correct') score++;
+            if (q3 === 'correct') score++;
+            if (q4 === 'correct') score++;
+            if (q5 === 'correct') score++;
 
             resultBox.classList.remove('hidden', 'bg-green-50', 'bg-yellow-50', 'border-green-200', 'border-yellow-200', 'text-green-800', 'text-yellow-800');
             
-            if (score === 2) {
+            if (score === 5) {
                 resultBox.classList.add('bg-green-50', 'border-green-200', 'text-green-800');
                 resultBox.innerHTML = `
                     <div class="flex items-center gap-3">
                         <i class="ph-fill ph-check-circle text-2xl text-green-600"></i>
                         <div>
-                            <p class="font-bold">Tahniah! Skor: 2/2.</p>
-                            <p class="text-sm">Anda mempunyai pemahaman yang kukuh mengenai konsep gamifikasi.</p>
+                            <p class="font-bold">Tahniah! Skor: 5/5.</p>
+                            <p class="text-sm">Anda mempunyai pemahaman yang sangat kukuh mengenai konsep gamifikasi.</p>
+                        </div>
+                    </div>`;
+            } else if (score >= 3) {
+                resultBox.classList.add('bg-yellow-50', 'border-yellow-200', 'text-yellow-800');
+                resultBox.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        <i class="ph-fill ph-warning-circle text-2xl text-yellow-600"></i>
+                        <div>
+                            <p class="font-bold">Bagus! Skor: ${score}/5.</p>
+                            <p class="text-sm">Pemahaman yang memuaskan, namun pastikan anda merujuk kembali topik yang tidak berjaya dijawab dengan betul.</p>
                         </div>
                     </div>`;
             } else {
@@ -693,8 +991,8 @@
                     <div class="flex items-center gap-3">
                         <i class="ph-fill ph-warning-circle text-2xl text-yellow-600"></i>
                         <div>
-                            <p class="font-bold">Percubaan yang baik! Skor: ${score}/2.</p>
-                            <p class="text-sm">Sila buat rujukan semula pada bahagian "Konsep Topik" dan cuba lagi.</p>
+                            <p class="font-bold">Percubaan yang baik! Skor: ${score}/5.</p>
+                            <p class="text-sm">Sila buat rujukan semula pada bahagian "Bahan Kuliah" dan cuba lagi.</p>
                         </div>
                     </div>`;
             }
@@ -758,6 +1056,81 @@
                 });
             }, 100);
         }
+
+        // --- Sistem Penyimpanan Komen Pantas (LocalStorage) ---
+        const COMMENTS_KEY = 'edutech_quick_comments';
+
+        function createCommentHTML(comment, isNew = false) {
+            const pulseClass = isNew ? 'animate-pulse' : '';
+            return `
+                <div class="flex gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100 ${pulseClass}">
+                    <div class="w-10 h-10 rounded-full bg-blue-200 flex items-center justify-center text-unimapBlue font-bold shrink-0">${comment.initials}</div>
+                    <div>
+                        <h4 class="font-bold text-sm text-gray-900">${comment.name} <span class="text-xs font-normal text-gray-500 ml-2">${comment.time}</span></h4>
+                        <p class="text-sm text-gray-700 mt-1">${comment.thoughts}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        function loadComments() {
+            const board = document.getElementById('discussionBoard');
+            if(!board) return;
+            
+            let savedComments = JSON.parse(localStorage.getItem(COMMENTS_KEY));
+            
+            if (!savedComments || savedComments.length === 0) {
+                savedComments = [
+                    {
+                        name: "Cikgu Farah",
+                        initials: "CF",
+                        time: "2 jam yang lalu",
+                        thoughts: "Modul ini sangat praktikal! Fungsi Pembina RPH amat menjimatkan masa saya untuk merancang aktiviti kelas esok. Terima kasih atas perkongsian ilmu yang bermanfaat ini."
+                    },
+                    {
+                        name: "Admin EduTech",
+                        initials: "AE",
+                        time: "Sistem",
+                        thoughts: "Tinggalkan komen anda di sini"
+                    }
+                ];
+                localStorage.setItem(COMMENTS_KEY, JSON.stringify(savedComments));
+            }
+
+            board.innerHTML = '';
+            savedComments.forEach(comment => {
+                board.innerHTML += createCommentHTML(comment);
+            });
+        }
+
+        function submitFeedback(e) {
+            e.preventDefault();
+            const form = e.target;
+            const name = form.elements[0].value;
+            const thoughts = form.elements[1].value;
+            const initials = name.substring(0, 2).toUpperCase();
+
+            const newComment = {
+                name: name,
+                initials: initials,
+                time: "Baru sahaja",
+                thoughts: thoughts
+            };
+
+            const savedComments = JSON.parse(localStorage.getItem(COMMENTS_KEY)) || [];
+            savedComments.unshift(newComment);
+            localStorage.setItem(COMMENTS_KEY, JSON.stringify(savedComments));
+
+            const board = document.getElementById('discussionBoard');
+            board.insertAdjacentHTML('afterbegin', createCommentHTML(newComment, true));
+            form.reset();
+
+            setTimeout(() => {
+                board.firstElementChild.classList.remove('animate-pulse');
+            }, 1000);
+        }
+
+        document.addEventListener('DOMContentLoaded', loadComments);
 
     </script>
 </body>
